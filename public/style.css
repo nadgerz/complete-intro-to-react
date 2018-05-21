@@ -461,7 +461,7 @@ html {
 
 .landing > h1 {
   color: #B10DC9;
-  font-family: Skia;
+  font-family: Skia, sans-serif;
   font-weight: normal;
 }
 
@@ -521,6 +521,7 @@ pre {
   text-align: left;
 }
 
+/*
 // .search > div > a {
 //   width: 30%;
 //   height: 0;
@@ -532,7 +533,9 @@ pre {
 //   color: #333;
 //   text-decoration: none;
 // }
+*/
 
+/*
 // .search > div > a {
 //   width: 100%;
 //   padding-bottom: 70%;
@@ -542,7 +545,9 @@ pre {
 //   border: none;
 //   border-radius: inherit;
 // }
+*/
 
+/*
 // .show-card {
 //   float: left;
 //   margin-right: 2%;
@@ -555,39 +560,52 @@ pre {
 //   overflow: hidden;
 //   margin-bottom: 2%;
 // }
+*/
 
+/*
 // .show-card:nth-child(3n), .search > div > a:nth-child(3n) > .show-card {
 //   margin-right: 0;
 // }
+*/
 
+/*
 // .show-card > img {
 //   width: 46%;
 //   float: left;
 // }
+*/
 
+/*
 // .show-card > div{
 //   display: block;
 //   float: right;
 //   width: 52%;
 //   overflow-y: scroll;
 // }
+*/
 
+/*
 // .show-card > div > h3 {
 //   margin-top: 0;
 //   margin-bottom: 5px;
 // }
+*/
 
+/*
 // .show-card > div > h4 {
 //   margin-top: 0;
 //   margin-bottom: 5px;
 //   color: #666;
 //   font-size: 13px;
 // }
+*/
 
+/*
 // .show-card > div > p {
 //   margin: 0;
 //   font-size: 13px;
-}
+// }
+*/
 
 .search > header + div {
   margin-top: 25px;
@@ -609,7 +627,7 @@ header {
 }
 
 header > h1 {
-  font-family: Skia;
+  font-family: Skia, sans-serif;
   font-weight: normal;
   color: #B10DC9;
   margin: 0;
@@ -665,16 +683,30 @@ header > input {
 }
 
 @-moz-keyframes spin {
-    from { -moz-transform: rotate(0deg); }
-    to { -moz-transform: rotate(360deg); }
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
 }
+
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
+
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .details > section > * {
