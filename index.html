@@ -27,9 +27,10 @@
     return ce( "div", null,
                ce( "h1", { id: "barp" }, "This is my first component!!" ),
                [
-                 ce( MyTitel ),
-                 ce( MyTitel ),
-                 ce( MyTitel )
+                 ce( MyTitel, { title: "Bibble" } ),
+                 ce( MyTitel, { title: "Babble" } ),
+                 ce( MyTitel, { title: "Bobble" } ),
+                 ce( MyTitel, { title: "Narp" } )
                ]
     );
   };
